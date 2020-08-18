@@ -50,7 +50,7 @@ const calculateTax = function(x, y) {
 
 const printNumbersToTen = function() {
 
-  for(i = 1; i <= 10; i++){
+  for(let i = 1; i <= 10; i++){
     console.log(i);
   }
 
@@ -61,7 +61,7 @@ const printNumbersToTen = function() {
 
 const printNumbersToX = function(x) {
 
-  for(i = 1; i <= x; i++){
+  for(let i = 1; i <= x; i++){
   console.log(i);
   }
 
@@ -84,7 +84,7 @@ const addStrings = function(string1, string2) {
 
 const fizzBuzz = function() {
 
-  for(i = 1; i <= 100; i++){
+  for(let i = 1; i <= 100; i++){
     if (i % 3 === 0 && i % 5 === 0){
       console.log("fizzbuzz");
     }else if(i % 3 === 0){
